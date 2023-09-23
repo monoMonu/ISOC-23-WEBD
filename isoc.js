@@ -1,4 +1,4 @@
-let navbarMenu = document.querySelector('.navbar-menu');
+/*let navbarMenu = document.querySelector('.navbar-menu');
 let dropdownIsOpen = false;
 
 // Handle dropdown menu toggle
@@ -47,5 +47,17 @@ function handleSmallScreens() {
   });
 }
 
-handleSmallScreens();
+handleSmallScreens();*/
 
+const hamburger = document.querySelector("#hamburger");
+const main_nav = document.querySelector(".main-nav");
+hamburger.addEventListener("click", ()=>{
+    if(!hamburger.classList.contains("cross")){
+        main_nav.classList.add("show-nav");
+        hamburger.classList.add("cross");
+    }
+    else {
+        main_nav.classList.remove("show-nav");
+        hamburger.classList.remove("cross");
+    }
+})
