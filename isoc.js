@@ -49,6 +49,7 @@ function handleSmallScreens() {
 
 handleSmallScreens();*/
 
+
 const hamburger = document.querySelector("#hamburger");
 const main_nav = document.querySelector(".main-nav");
 hamburger.addEventListener("click", ()=>{
