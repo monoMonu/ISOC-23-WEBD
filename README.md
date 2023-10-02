@@ -10,23 +10,23 @@ The primary objective of this project is to craft an open-source website dedicat
 
 1. **Toggle Light and Dark Mode:** Empower users with the ability to seamlessly switch between light and dark modes, thereby elevating their browsing experience.
 
-2. **Sticky Navbar:** Create an adaptive and sticky navigation bar that seamlessly transforms to suit varying screen sizes, ensuring an uninterrupted and user-friendly experience, particularly on mobile devices.
+2. **Sticky Navbar:** Create an adaptive and sticky navigation bar that seamlessly transforms to suit varying screen sizes, ensuring an uninterrupted and user-friendly experience, particularly on mobile devices. <img src="https://img.shields.io/badge/Done-46a933?style=for-the-badge" height="15"/> 
 
-3. **CSS Enhancements:** Elevate the aesthetic and user experience with features such as self-scrolling at defined intervals, seamless mouse, keypad, and touch-based scrollability, user-friendly artifact carousels, and an elegant, royal-themed preloader. Endeavor to imbue dynamism into static components wherever feasible.
+3. **CSS Enhancements:** Elevate the aesthetic and user experience with features such as self-scrolling at defined intervals, seamless mouse, keypad, and touch-based scrollability, user-friendly artifact carousels, and an elegant, royal-themed preloader. Endeavor to imbue dynamism into static components wherever feasible.  <img src="https://img.shields.io/badge/Done A Bit-46a933?style=for-the-badge" height="15"/>
 
 4. **Button Functionality:** Imbue all provided buttons within the base project with full functionality, ensuring they perform their designated actions seamlessly. Participants are encouraged to introduce additional features that align with their creative vision.
 
 5. **Multilingual Support:** Provide language change options for English, French, German, and Spanish as a minimum requirement, offering an inclusive and accessible user interface.
 
-6. **Exhibition Categorization:** Implement a robust filtration system for categorizing artifacts, allowing users to explore and discover artifacts based on type, chronology, rarity, and other pertinent criteria.
+6. **Exhibition Categorization:** Implement a robust filtration system for categorizing artifacts, allowing users to explore and discover artifacts based on type, chronology, rarity, and other pertinent criteria.  <img src="https://img.shields.io/badge/Done-46a933?style=for-the-badge" height="15"/>
 
 7. **Contact Us:** Establish a "Contact Us" section equipped with a robust database for efficiently managing inquiries and user feedback.
 
-8. **Add to Calendar Functionality:** Enable users to add events and exhibition dates to their calendars for easy event tracking and reminders.
+8. **Add to Calendar Functionality:** Enable users to add events and exhibition dates to their calendars for easy event tracking and reminders.  <img src="https://img.shields.io/badge/Done-46a933?style=for-the-badge" height="15"/>
 
 9. **Ticket Booking System:** Implement a robust ticket booking system frontend, allowing users to purchase tickets for exhibitions and manage their bookings.
 
-10. **Share Event Details:** Enable users to share event details and artifacts using social media platforms and provide a "Copy URL" functionality for easy sharing.
+10. **Share Event Details:** Enable users to share event details and artifacts using social media platforms and provide a "Copy URL" functionality for easy sharing.  <img src="https://img.shields.io/badge/Done-46a933?style=for-the-badge" height="15"/>
 
 11. **Search and Filter Functionality:** Enhance user experience by implementing robust search and filter options. Allow users to effortlessly discover exhibitions based on criteria such as date, location, category, or artist.
 
