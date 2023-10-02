@@ -4,6 +4,8 @@ Welcome to the ISOC'23 Web Development Track! In this open source competition, y
 
 ## Project Overview
 
+Check Out the Site [here](https://monomonu.github.io/ISOC-23-WEBD/index.html)
+
 The primary objective of this project is to craft an open-source website dedicated to the promotion of local artifacts. While the base project has been graciously provided as a reference, participants are fervently encouraged to augment and enhance its features. Below, you will find a detailed list of essential features and prerequisites:
 
 ### Issues
