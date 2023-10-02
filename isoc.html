@@ -7,354 +7,398 @@
   <link rel="icon" type="image/png" href="./Assets/Logo.png" sizes="64x64">
   <link rel="stylesheet" href="./isoc.css">
   <title>ISOCeum | Home</title>
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+  />
+  
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  
 </head>
 
 <body>
-  <!-- navbar -->
-  
-    <header class="header">
-      <h1 class="logo"><a href="isoc.html"><span style="color:#7b00d3; font-size: 25pt;">ISOC</span>eum</a></h1>
-      <div class="nav-cont">
-        <ul class="main-nav">
-          <li><a href="isoc.html" class="active">Home</a></li>
-          <li><a href="#">Gallery</a></li>
-          <li><a href="#">Tickets & Visit</a></li>
-          <li><a href="#">Art & Stories</a></li>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
-        <div class="dropdown">
-          <span>Language | <strong>EN</strong></span>
-          <!-- change "en" as per language -->
-          <div class="dropdown-content">
-            <button>English <img src="./Languages/USA.jpg"></button>
-            <button>French <img src="./Languages/France.jpg"></button>
-            <button>German <img src="./Languages/Germany.png"></button>
-            <button>Spanish <img src="./Languages/Spain.jpg"></button>
-          </div>
+<!-- navbar -->
+
+  <header class="header">
+    <h1 class="logo"><a href="isoc.html"><span style="color:#7b00d3; font-size: 25pt;">ISOC</span>eum</a></h1>
+    <div class="nav-cont">
+      <ul class="main-nav">
+        <li><a href="isoc.html" class="active">Home</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#">Tickets & Visit</a></li>
+        <li><a href="#">Art & Stories</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <div class="dropdown">
+        <span>Language | <strong>EN</strong></span>
+        <!-- change "en" as per language -->
+        <div class="dropdown-content">
+          <button>English <img src="./Languages/USA.jpg"></button>
+          <button>French <img src="./Languages/France.jpg"></button>
+          <button>German <img src="./Languages/Germany.png"></button>
+          <button>Spanish <img src="./Languages/Spain.jpg"></button>
         </div>
-        <div id="hamburger">
+      </div>
+      <div id="hamburger">
 	      <span class="bar bar1"></span>
 	      <span class="bar bar2"></span>
 	      <span class="bar bar3"></span>
-        </div>
-      </div>
-    </header>
-
-
-  <!-- hero -->
-  <section>
-    <div class="hero-sec">
-      <div id="hero-headline">
-        <div class="main">
-          <h1>The ISOC-eum </h1>
-            </div>
-          </h1>
-        </div>
       </div>
     </div>
-  </section>
+  </header>
 
-  <!-- ongoing exhibitions -->
-  <section>
-    <div class="ongoing-exhib">
-      <p> ONGOING EXHIBITIONS</p>
+
+<!-- hero -->
+<section>
+  <div class="hero-sec">
+    <div id="hero-headline">
+      <div class="main">
+        <h1>The ISOC-eum </h1>
+          </div>
+        </h1>
+      </div>
     </div>
-    <div class="ongoing-exhib-grid">
-      <div class="ongoing-exhib-grid-item oe-flex">
-        <!-- <a href="page.html" target="_blank"> -->
-        <img class="oe-flex-item" src="./Ongoing Exhib/Artifact-1.jpg">
-        <div class="c-exhib-info">
-          <h3 class="oe-flex-item">Timeless Treasures</h3>
-          <p class="oe-flex-item">
-            Day | Date | Time | Venue
-          </p>
-        </div>
-      </div>
-      <div class="ongoing-exhib-grid-item oe-flex">
-        <!-- <a href="page.html" target="_blank"> -->
-        <img class="oe-flex-item" src="./Ongoing Exhib/Artifact-2.jpg">
-        <div class="c-exhib-info">
-          <h3 class="oe-flex-item">Antique Splendours</h3>
-          <p class="oe-flex-item">
-            Day | Date | Time | Venue
-          </p>
-        </div>
-      </div>
+  </div>
+</section>
 
-      <div class="ongoing-exhib-grid-item oe-flex">
-        <!-- <a href="page.html" target="_blank"> -->
-        <img class="oe-flex-item" src="./Ongoing Exhib/Artifact-3.jpg">
-        <div class="c-exhib-info">
-          <h3 class="oe-flex-item">Relics Unveiled</h3>
-          <p class="oe-flex-item">
-            Day | Date | Time | Venue
-          </p>
+<!-- ongoing exhibitions -->
+<section>
+  <div class="ongoing-exhib">
+    <p> ONGOING EXHIBITIONS</p>
+  </div>
+  <div class="swiper">
+  <div class="ongoing-exhib-grid swiper-wrapper">
+    <div class="swiper-slide">
+    <div class="ongoing-exhib-grid-item oe-flex">
+      <!--<a href="page.html" target="_blank">-->
+      <img class="oe-flex-item" src="./Ongoing Exhib/Artifact-1.jpg">
+      <div class="slide-right">
+        <h3 class="oe-flex-item">Timeless Treasures</h3>
+        <p class="oe-flex-item">
+          Day | Date | Time | Venue
+        </p>
+        <div class="calNshare">
+           <!-- Modify the link according to event details -->
+           <a class="addToCalender" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=My Event&details=Event description text&dates=20231005T080000/20231006T040000&location=India"></a>
+           <button class="shareBtn"></button>
         </div>
       </div>
     </div>
-  </section>
-
-  <!-- our exhibition gallery -->
-  <section>
-    <div class="our-gallery">
-      <p style="color: #764c03; padding-top: 40px;">OUR EXHIBITION GALLERY</p>
     </div>
-    <div class="our-gallery our-gallery-container">
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-1.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-2.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-3.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-4.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-5.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-1.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-2.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-3.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-4.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-5.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-1.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-2.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-3.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-4.jpg"></a>
-    </div>
-    <div class="our-gallery our-gallery-btn" style="margin-top: 0;">
-      <button id="explore-gallery">Explore Gallery</button>
-    </div>
-  </section>
-
-  <!-- artisan about -->
-  <section>
-    <div class="artisan-hub">
-      <p>ARTISAN EXPLORATION HUB</p>
-    </div>
-    <div class="artisan-hub-info-grid">
-      <div class="artisan-hub-img">
-        <img src="./Artisan/Artisan-1.jpg">
-      </div>
-      <div class="artisan-hub-info-flexbox">
-        <div class="artisan-info">
-          <img src="./Artisan/Info-1.png">
-          <a href="./artandstories.html">
-            <p>Learn about our local artisans</p>
+    <div class="swiper-slide">
+    <div class="ongoing-exhib-grid-item oe-flex">
+      <!-- <a href="page.html" target="_blank"> -->
+      <img class="oe-flex-item" src="./Ongoing Exhib/Artifact-2.jpg">
+      <div class="slide-right">
+        <h3 class="oe-flex-item">Antique Splendours</h3>
+        <p class="oe-flex-item">
+        Day | Date | Time | Venue
+        </p>
+		<div class="calNshare">
+           <!-- Modify the link according to event details -->
+           <a class="addToCalender" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=My Event&details=Event description text&dates=20231005T080000/20231006T040000&location=India"></a>
+           <button class="shareBtn"></button>
         </div>
-        <div class="artisan-info-details">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Sed at facilisis odio. Vestibulum tincidunt, nulla
-            erat viverra tellus.
-          </p>
-        </div></a>
       </div>
     </div>
-  </section>
-
-  <!-- upcoming exhibitions -->
-  <section class="upcoming">
-    <div class="upcoming-exhib">
-      UPCOMING EXHIBITIONS
     </div>
-    <div class="row">
-      <a href="page.html" target="_blank">
+    <div class="swiper-slide">
+    <div class="ongoing-exhib-grid-item oe-flex">
+      <!--<a href="page.html" target="_blank">-->
+      <img class="oe-flex-item" src="./Ongoing Exhib/Artifact-3.jpg">
+      <div class="slide-right">
+        <h3 class="oe-flex-item">Relics Unveiled</h3>
+        <p class="oe-flex-item">
+          Day | Date | Time | Venue
+        </p>
+		<div class="calNshare">
+           <!-- Modify the link according to event details -->
+           <a class="addToCalender" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=My Event&details=Event description text&dates=20231005T080000/20231006T040000&location=India"></a>
+           <button class="shareBtn"></button>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!-- our exhibition gallery -->
+<section>
+  <div class="our-gallery" id="gallery">
+    <p style="color: #764c03; padding-top: 40px;">OUR EXHIBITION GALLERY</p>
+  </div>
+  <div class="our-gallery our-gallery-container">
+    <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-1.jpg"></a>
+    <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-2.jpg"></a>
+    <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-3.jpg"></a>
+    <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-4.jpg"></a>
+    <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-5.jpg"></a>
+    <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-1.jpg"></a>
+    <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-2.jpg"></a>
+    <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-3.jpg"></a>
+    <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-4.jpg"></a>
+    <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-5.jpg"></a>
+    <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-1.jpg"></a>
+    <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-2.jpg"></a>
+    <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-3.jpg"></a>
+    <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-4.jpg"></a>
+  </div>
+  <div class="our-gallery our-gallery-btn" style="margin-top: 0;">
+    <button id="explore-gallery">Explore Gallery</button>
+  </div>
+</section>
+
+<!-- artisan about -->
+<section>
+  <div class="artisan-hub">
+    <p>ARTISAN EXPLORATION HUB</p>
+  </div>
+  <div class="artisan-hub-info-box">
+    <div class="artisan-hub-img">
+      <img src="./Artisan/Artisan-1.jpg">
+    </div>
+    <div class="artisan-hub-info-flexbox">
+      <div class="artisan-info">
+        <img src="./Artisan/Info-1.png">
+        <a href="./artandstories.html">
+          <p>Learn about our local artisans</p>
+      </div>
+      <div class="artisan-info-details">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Sed at facilisis odio. Vestibulum tincidunt, nulla
+          erat viverra tellus.
+        </p>
+      </div></a>
+    </div>
+  </div>
+</section>
+
+<!-- upcoming exhibitions -->
+<section class="upcoming">
+  <div class="upcoming-exhib">
+    UPCOMING EXHIBITIONS
+  </div>
+  <div class="row">
+    <!--<a href="page.html" target="_blank">-->
+      <div class="column">
+        <div class="card">
+          <img src="./Upcoming/Upcoming-1.jpg" style="width:100%">
+          <h2 class="upcoming-exhib-about">Regal Reverie</h2>
+          <p class="small-intro"> Small Intro</p>
+          <p>Day | Date | Time | Venue</p>
+		  <div class="calNshare">
+	           <!-- Modify the link according to event details -->
+	           <a class="addToCalender" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=My Event&details=Event description text&dates=20231005T080000/20231006T040000&location=India"></a>
+	           <button class="shareBtn"></button>
+          </div>
+        </div>
+      </div>
+
+
+      <!--<a href="page.html" target="_blank">-->
         <div class="column">
           <div class="card">
-            <img src="./Upcoming/Upcoming-1.jpg" style="width:100%">
-            <h2 class="upcoming-exhib-about">Regal Reverie</h2>
-            <p class="small-intro"> Small Intro</p>
+            <img src="./Upcoming/Upcoming-2.jpg" style="width:100%">
+            <h2 class="upcoming-exhib-about">Gilded Treasures</h2>
+            <p class="small-intro"> Small intro</p>
             <p>Day | Date | Time | Venue</p>
+            <div class="calNshare">
+	            <!-- Modify the link according to event details -->
+	            <a class="addToCalender" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=My Event&details=Event description text&dates=20231005T080000/20231006T040000&location=India"></a>
+	            <button class="shareBtn"></button>
+            </div>
           </div>
         </div>
 
-
-        <a href="page.html" target="_blank">
+        <!--<a href="page.html" target="_blank">-->
           <div class="column">
             <div class="card">
-              <img src="./Upcoming/Upcoming-2.jpg" style="width:100%">
-              <h2 class="upcoming-exhib-about">Gilded Treasures</h2>
+              <img src="./Upcoming/Upcoming-3.jpg" style="width:100%">
+              <h2 class="upcoming-exhib-about">Timeless Splendour</h2>
               <p class="small-intro"> Small intro</p>
               <p>Day | Date | Time | Venue</p>
-            </div>
-          </div>
-
-          <a href="page.html" target="_blank">
-            <div class="column">
-              <div class="card">
-                <img src="./Upcoming/Upcoming-3.jpg" style="width:100%">
-                <h2 class="upcoming-exhib-about">Timeless Splendour</h2>
-                <p class="small-intro"> Small intro</p>
-                <p>Day | Date | Time | Venue</p>
+              <div class="calNshare">
+	              <!-- Modify the link according to event details -->
+	              <a class="addToCalender" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=My Event&details=Event description text&dates=20231005T080000/20231006T040000&location=India"></a>
+	              <button class="shareBtn"></button>
               </div>
             </div>
-
-  </section>
-
-  <!-- our newsletter -->
-  <section id="newsletter">
-    <div class="box">
-      <img src="https://lh3.google.com/u/0/d/1-WTX2Kw4ZlgLnwT9gYyFOxVXowT9eS-t=w1375-h881-iv1" alt="" />
-      <h2>Subscribe to our Newsletter</h2>
-      <p>
-        Our weekly newsletter provides you with the latest exhibitions on artifacts,
-        a true delight for the art & culture enthusiasts.
-      </p>
-      <div class="form-control">
-        <input type="text" class="input" placeholder="Enter e-mail adress" />
-        <button class="btn">Subscribe</button>
+          </div>
       </div>
+</section>
+
+<!-- our newsletter -->
+<section id="newsletter">
+  <div class="box">
+    <img src="https://lh3.google.com/u/0/d/1-WTX2Kw4ZlgLnwT9gYyFOxVXowT9eS-t=w1375-h881-iv1" alt="" />
+    <h2>Subscribe to our Newsletter</h2>
+    <p>
+      Our weekly newsletter provides you with the latest exhibitions on artifacts,
+      a true delight for the art & culture enthusiasts.
+    </p>
+    <div class="form-control">
+      <input type="text" class="input" placeholder="Enter e-mail adress" />
+      <button class="btn">Subscribe</button>
     </div>
-    <button class="floating-btn">
-      Get in Touch
-    </button>
-  </section>
+  </div>
+  <button class="floating-btn">
+    Get in Touch
+  </button>
+</section>
 
-  <footer class="footer">
-    <!-- Grid container -->
-    <div class="footer-container">
-      <!-- Section: Social media -->
-      <section class="social-media">
-        <!-- Facebook -->
-        <a class="btn btn-social btn-facebook" href="#!" role="button">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <!-- Twitter -->
-        <a class="btn btn-social btn-twitter" href="#!" role="button">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <!-- Google -->
-        <a class="btn btn-social btn-google" href="#!" role="button">
-          <i class="fab fa-google"></i>
-        </a>
-        <!-- Instagram -->
-        <a class="btn btn-social btn-instagram" href="#!" role="button">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <!-- Linkedin -->
-        <a class="btn btn-social btn-linkedin" href="#!" role="button">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-        <!-- Github -->
-        <a class="btn btn-social btn-github" href="#!" role="button">
-          <i class="fab fa-github"></i>
-        </a>
-      </section>
-      <!-- Section: Social media -->
+<footer class="footer">
+  <!-- Grid container -->
+  <div class="footer-container">
+    <!-- Section: Social media -->
+    <section class="social-media">
+      <!-- Facebook -->
+      <a class="btn btn-social btn-facebook" href="#!" role="button">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <!-- Twitter -->
+      <a class="btn btn-social btn-twitter" href="#!" role="button">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <!-- Google -->
+      <a class="btn btn-social btn-google" href="#!" role="button">
+        <i class="fab fa-google"></i>
+      </a>
+      <!-- Instagram -->
+      <a class="btn btn-social btn-instagram" href="#!" role="button">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <!-- Linkedin -->
+      <a class="btn btn-social btn-linkedin" href="#!" role="button">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <!-- Github -->
+      <a class="btn btn-social btn-github" href="#!" role="button">
+        <i class="fab fa-github"></i>
+      </a>
+    </section>
+    <!-- Section: Social media -->
 
-      <!-- Section: Newsletter Form -->
-      <section class="newsletter">
-        <form action="">
-          <!--Grid row-->
-          <div class="newsletter-row">
-            <!--Grid column-->
-            <div class="col-auto newsletter-text">
-              <p class="pt-2">
-                <strong>Sign up for our newsletter</strong>
-              </p>
-            </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-md-5 col-12">
-              <!-- Email input -->
-              <div class="form-outline form-white mb-4">
-                <input
-                  type="email"
-                  id="newsletter-email"
-                  class="form-control"
-                />
-                <label class="form-label" for="newsletter-email"
-                  >Email address</label
-                >
-              </div>
-            </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-auto newsletter-button">
-              <!-- Submit button -->
-              <button type="submit" class="btn btn-outline-light mb-4">
-                Subscribe
-              </button>
-            </div>
-            <!--Grid column-->
-          </div>
-          <!--Grid row-->
-        </form>
-      </section>
-      <!-- Section: Newsletter Form -->
-
-      <!-- Section: Text -->
-      <section class="footer-text">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-          distinctio earum repellat quaerat voluptatibus placeat nam, commodi
-          optio pariatur est quia magnam eum harum corrupti dicta, aliquam
-          sequi voluptate quas.
-        </p>
-      </section>
-      <!-- Section: Text -->
-
-      <!-- Section: Footer Links -->
-      <section class="footer-links">
+    <!-- Section: Newsletter Form -->
+    <section class="newsletter">
+      <form action="">
         <!--Grid row-->
-        <div class="row1">
+        <div class="newsletter-row">
           <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
-            <ul class="list-unstyled mb-0">
-              <li><a href="#!" class="footer-link">Link 1</a></li>
-              <li><a href="#!" class="footer-link">Link 2</a></li>
-            </ul>
+          <div class="col-auto newsletter-text">
+            <p class="pt-2">
+              <strong>Sign up for our newsletter</strong>
+            </p>
           </div>
           <!--Grid column-->
-        </div>
 
-        <div class="row2">
           <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
-            <ul class="list-unstyled mb-0">
-              <li><a href="#!" class="footer-link">Link 1</a></li>
-              <li><a href="#!" class="footer-link">Link 2</a></li>
-            </ul>
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input
+                type="email"
+                id="newsletter-email"
+                class="form-control"
+              />
+              <label class="form-label" for="newsletter-email"
+                >Email address</label
+              >
+            </div>
           </div>
           <!--Grid column-->
-        </div>
 
-        <div class="row3">
           <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
-            <ul class="list-unstyled mb-0">
-              <li><a href="#!" class="footer-link">Link 1</a></li>
-              <li><a href="#!" class="footer-link">Link 2</a></li>
-            </ul>
-          </div>
-          <!--Grid column-->
-        </div>
-
-        <div class="row4">
-          <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
-            <ul class="list-unstyled mb-0">
-              <li><a href="#!" class="footer-link">Link 1</a></li>
-              <li><a href="#!" class="footer-link">Link 2</a></li>
-            </ul>
+          <div class="col-auto newsletter-button">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              Subscribe
+            </button>
           </div>
           <!--Grid column-->
         </div>
         <!--Grid row-->
-      </section>
-      <!-- Section: Footer Links -->
-    </div>
-    <!-- Grid container -->
+      </form>
+    </section>
+    <!-- Section: Newsletter Form -->
 
-    <!-- Copyright -->
-    <div class="copyright">
-      © 2020 Copyright:
-      <a class="text-white" href="https://mdbootstrap.com/"
-        >MDBootstrap.com</a
-      >
-    </div>
-    <!-- Copyright -->
-  </footer>
+    <!-- Section: Text -->
+    <section class="footer-text">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+        distinctio earum repellat quaerat voluptatibus placeat nam, commodi
+        optio pariatur est quia magnam eum harum corrupti dicta, aliquam
+        sequi voluptate quas.
+      </p>
+    </section>
+    <!-- Section: Text -->
+
+    <!-- Section: Footer Links -->
+    <section class="footer-links">
+      <!--Grid row-->
+      <div class="row1">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+          <ul class="list-unstyled mb-0">
+            <li><a href="#!" class="footer-link">Link 1</a></li>
+            <li><a href="#!" class="footer-link">Link 2</a></li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+
+      <div class="row2">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+          <ul class="list-unstyled mb-0">
+            <li><a href="#!" class="footer-link">Link 1</a></li>
+            <li><a href="#!" class="footer-link">Link 2</a></li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+
+      <div class="row3">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+          <ul class="list-unstyled mb-0">
+            <li><a href="#!" class="footer-link">Link 1</a></li>
+            <li><a href="#!" class="footer-link">Link 2</a></li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+
+      <div class="row4">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+          <ul class="list-unstyled mb-0">
+            <li><a href="#!" class="footer-link">Link 1</a></li>
+            <li><a href="#!" class="footer-link">Link 2</a></li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Footer Links -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="copyright">
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/"
+      >MDBootstrap.com</a
+    >
+  </div>
+  <!-- Copyright -->
+</footer>
   <script src="./isoc.js"></script>
 </body>
 
